@@ -1,0 +1,24 @@
+{
+  "name": "ps5-bot",
+  "version": "1.0.0",
+  "description": "bot to buy ps5 on the interwebs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "after-load": "^1.0.4",
+    "lodash": "^4.17.20",
+    "node-fetch": "^2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oriyn/ps5-bot.git"
+  },
+  "author": "Gabe Haggard",
+  "bugs": {
+    "url": "https://github.com/Oriyn/ps5-bot/issues"
+  },
+  "homepage": "https://github.com/Oriyn/ps5-bot#readme"
+}
