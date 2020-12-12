@@ -9,11 +9,9 @@ exports.initialize = async () => {
   //var src = await fetch('https://direct.playstation.com/en-us/consoles/console/playstation5-console.3005816');
 
 
-  afterLoad('https://google.com', function(html){
-     console.log(html);
-  });
+  var src = await afterLoad('https://direct.playstation.com/en-us/consoles/console/playstation5-console.3005816');
 
-  //console.log(src);
+  console.log(src);
 };
 
 
